@@ -24,6 +24,11 @@
 <img src="https://user-images.githubusercontent.com/102876392/219501924-0f597731-9ac6-4c58-9ffa-ad26cf915e59.png">
 <br>
 
+<br>
+<h2>DDD model:</h2>
+<img src="https://user-images.githubusercontent.com/102876392/219503187-7fd0ec74-3f6c-4197-8d55-1e73d50728e6.png">
+<br>
+
 <h2>Business rules:</h2>
 <ul>
   <li>A guest can make multiple reservations and have multiple phone numbers.</li>
