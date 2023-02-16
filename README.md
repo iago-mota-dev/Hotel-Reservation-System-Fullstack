@@ -19,6 +19,11 @@
   <li>Payment: represents a payment made for a reservation and its properties including reservation (FK to reservation), date, amount, and status (pending/paid).</li>
 </ul>
 
+<br>
+<h2>Database model:</h2>
+<img src="https://user-images.githubusercontent.com/102876392/219501924-0f597731-9ac6-4c58-9ffa-ad26cf915e59.png">
+<br>
+
 <h2>Business rules:</h2>
 <ul>
   <li>A guest can make multiple reservations and have multiple phone numbers.</li>
