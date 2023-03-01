@@ -10,4 +10,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelReservationSystem.APPLICATION\HotelReservationSystem.APPLICATION.csproj" />
+  </ItemGroup>
 </Project>

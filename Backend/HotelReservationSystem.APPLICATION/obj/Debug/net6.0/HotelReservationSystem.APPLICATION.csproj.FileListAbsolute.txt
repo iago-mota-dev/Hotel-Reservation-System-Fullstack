@@ -1,0 +1,17 @@
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\bin\Debug\net6.0\HotelReservationSystem.APPLICATION.deps.json
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\bin\Debug\net6.0\HotelReservationSystem.APPLICATION.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\bin\Debug\net6.0\HotelReservationSystem.APPLICATION.pdb
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\HotelReservationSystem.APPLICATION.csproj.AssemblyReference.cache
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\HotelReservationSystem.APPLICATION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\HotelReservationSystem.APPLICATION.AssemblyInfoInputs.cache
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\HotelReservationSystem.APPLICATION.AssemblyInfo.cs
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\HotelReservationSystem.APPLICATION.csproj.CoreCompileInputs.cache
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\HotelReservationSystem.APPLICATION.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\refint\HotelReservationSystem.APPLICATION.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\HotelReservationSystem.APPLICATION.pdb
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\ref\HotelReservationSystem.APPLICATION.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\bin\Debug\net6.0\HotelReservationSystem.DOMAIN.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\bin\Debug\net6.0\HotelReservationSystem.REPOSITORY.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\bin\Debug\net6.0\HotelReservationSystem.DOMAIN.pdb
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\bin\Debug\net6.0\HotelReservationSystem.REPOSITORY.pdb
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.APPLICATION\obj\Debug\net6.0\HotelReservationSystem.APPLICATION.csproj.CopyComplete

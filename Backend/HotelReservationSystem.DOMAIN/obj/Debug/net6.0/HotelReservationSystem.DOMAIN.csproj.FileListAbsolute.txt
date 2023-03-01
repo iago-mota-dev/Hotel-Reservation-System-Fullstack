@@ -1,0 +1,12 @@
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\bin\Debug\net6.0\HotelReservationSystem.DOMAIN.deps.json
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\bin\Debug\net6.0\HotelReservationSystem.DOMAIN.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\bin\Debug\net6.0\HotelReservationSystem.DOMAIN.pdb
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\HotelReservationSystem.DOMAIN.csproj.AssemblyReference.cache
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\HotelReservationSystem.DOMAIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\HotelReservationSystem.DOMAIN.AssemblyInfoInputs.cache
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\HotelReservationSystem.DOMAIN.AssemblyInfo.cs
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\HotelReservationSystem.DOMAIN.csproj.CoreCompileInputs.cache
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\HotelReservationSystem.DOMAIN.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\refint\HotelReservationSystem.DOMAIN.dll
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\HotelReservationSystem.DOMAIN.pdb
+C:\Users\User\git\Hotel-Reservation-System-Fullstack\Backend\HotelReservationSystem.DOMAIN\obj\Debug\net6.0\ref\HotelReservationSystem.DOMAIN.dll

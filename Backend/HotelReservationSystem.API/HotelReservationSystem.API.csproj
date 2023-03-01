@@ -10,4 +10,17 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentNHibernate" Version="3.1.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.30" />
+    <PackageReference Include="MySqlConnector" Version="2.1.13" />
+    <PackageReference Include="Scrutor" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HotelReservationSystem.APPLICATION\HotelReservationSystem.APPLICATION.csproj" />
+    <ProjectReference Include="..\HotelReservationSystem.DOMAIN\HotelReservationSystem.DOMAIN.csproj" />
+  </ItemGroup>
+
 </Project>
