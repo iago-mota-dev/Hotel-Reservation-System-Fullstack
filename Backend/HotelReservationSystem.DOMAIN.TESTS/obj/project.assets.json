@@ -2058,6 +2058,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "HotelReservationSystem.DOMAIN/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HotelReservationSystem.DOMAIN.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelReservationSystem.DOMAIN.dll": {}
+        }
       }
     }
   },
@@ -6870,11 +6880,17 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "HotelReservationSystem.DOMAIN/1.0.0": {
+      "type": "project",
+      "path": "../HotelReservationSystem.DOMAIN/HotelReservationSystem.DOMAIN.csproj",
+      "msbuildProject": "../HotelReservationSystem.DOMAIN/HotelReservationSystem.DOMAIN.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentAssertions >= 6.1.0",
+      "HotelReservationSystem.DOMAIN >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NBuilder >= 6.1.0",
       "NSubstitute >= 4.2.2",
@@ -6908,7 +6924,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\git\\Hotel-Reservation-System-Fullstack\\Backend\\HotelReservationSystem.DOMAIN\\HotelReservationSystem.DOMAIN.csproj": {
+              "projectPath": "C:\\Users\\User\\git\\Hotel-Reservation-System-Fullstack\\Backend\\HotelReservationSystem.DOMAIN\\HotelReservationSystem.DOMAIN.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -9,6 +9,7 @@
       "HotelReservationSystem.DOMAIN.TESTS/1.0.0": {
         "dependencies": {
           "FluentAssertions": "6.1.0",
+          "HotelReservationSystem.DOMAIN": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "NBuilder": "6.1.0",
           "NSubstitute": "4.2.2",
@@ -1252,7 +1253,12 @@
           }
         }
       },
-      "xunit.runner.visualstudio/2.4.3": {}
+      "xunit.runner.visualstudio/2.4.3": {},
+      "HotelReservationSystem.DOMAIN/1.0.0": {
+        "runtime": {
+          "HotelReservationSystem.DOMAIN.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -2002,6 +2008,11 @@
       "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    },
+    "HotelReservationSystem.DOMAIN/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
