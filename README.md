@@ -5,7 +5,7 @@
 
 <h2>Technologies used:</h2>
 <p>
-  Backend: .NET Framework (version 4.8 or later), C#, Entity Framework, SQL Server, Git<br>
+  Backend: .NET Framework (version 4.8 or later), C#, Fluent Nhibernate, Mysql Server, Git<br>
   Frontend: Angular, TypeScript, HTML, CSS, Bootstrap, Git
 </p>
 
