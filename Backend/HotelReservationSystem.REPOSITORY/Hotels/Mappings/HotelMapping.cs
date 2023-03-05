@@ -4,12 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using FluentNHibernate.Mapping;
 using HotelReservationSystem.DOMAIN.Hotels.Entities;
+using HotelReservationSystem.DOMAIN.Hotels.Enums;
+using NHibernate.Type;
 
 namespace HotelReservationSystem.REPOSITORY.Hotels.Mappings
 {
-    public class HotelMap : ClassMap<Hotel>
+    public class HotelMapping : ClassMap<Hotel>
     {
-        public HotelMap()
+        public HotelMapping()
         {
             Schema("hotel_reservation_system");
             Table("Hotel");
@@ -20,7 +22,7 @@ namespace HotelReservationSystem.REPOSITORY.Hotels.Mappings
             Map(x => x.PhoneNumber).Column("phone_number");
             Map(x => x.ImageUrl).Column("image_url");
             Map(x => x.Rating).Column("rating");
-            Map(x => x.HotelStatus).Column("hotelstatus");
+            Map(x => x.HotelStatus).Column("hotelstatus").CustomType<EnumType<HotelStatusEnum>>(); ;
         }
     }
 }
