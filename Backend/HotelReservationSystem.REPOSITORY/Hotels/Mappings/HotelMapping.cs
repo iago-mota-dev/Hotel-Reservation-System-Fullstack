@@ -22,7 +22,8 @@ namespace HotelReservationSystem.REPOSITORY.Hotels.Mappings
             Map(x => x.PhoneNumber).Column("phone_number");
             Map(x => x.ImageUrl).Column("image_url");
             Map(x => x.Rating).Column("rating");
-            Map(x => x.HotelStatus).Column("hotelstatus").CustomType<EnumType<HotelStatusEnum>>(); ;
+            Map(x => x.HotelStatus).Column("hotelstatus").CustomType<EnumType<HotelStatusEnum>>();
+            HasMany(x => x.Rooms).KeyColumn("hotel_id").Cascade.None();
         }
     }
 }

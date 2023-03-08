@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using HotelReservationSystem.DOMAIN.Guests.Enums;
+using HotelReservationSystem.DOMAIN.Phones.Entities;
 
 namespace HotelReservationSystem.DOMAIN.Guests.Entities
 {
@@ -14,6 +15,7 @@ namespace HotelReservationSystem.DOMAIN.Guests.Entities
         public virtual string Email { get; protected set; }
         public virtual string ImageUrl { get; protected set; }
         public virtual GuestStatusEnum GuestStatus { get; protected set; }
+        public virtual IList<Phone> Phones { get; protected set; }
         protected Guest(){}
         public Guest(string name, string address, string email, string imageUrl, GuestStatusEnum guestStatus)
         {
