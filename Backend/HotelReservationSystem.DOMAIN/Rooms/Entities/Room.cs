@@ -1,4 +1,5 @@
 using HotelReservationSystem.DOMAIN.Hotels.Entities;
+using HotelReservationSystem.DOMAIN.Reservations.Entities;
 using HotelReservationSystem.DOMAIN.Rooms.Enums;
 
 namespace HotelReservationSystem.DOMAIN.Rooms.Entities
@@ -12,6 +13,7 @@ namespace HotelReservationSystem.DOMAIN.Rooms.Entities
         public virtual decimal Price { get; protected set; }
         public virtual string ImageUrl { get; protected set; }
         public virtual RoomStatusEnum RoomStatus { get; protected set; }
+        public virtual IList<Reservation> Reservations { get; protected set; }
         protected Room(){}
         public Room(Hotel hotel, string type, int number, decimal price, string imageUrl, RoomStatusEnum roomStatus)
         {

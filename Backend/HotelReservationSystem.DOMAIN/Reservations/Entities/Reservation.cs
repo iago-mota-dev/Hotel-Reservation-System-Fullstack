@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using HotelReservationSystem.DOMAIN.Guests.Entities;
 using HotelReservationSystem.DOMAIN.Reservations.Enums;
+using HotelReservationSystem.DOMAIN.Rooms.Entities;
 
 namespace HotelReservationSystem.DOMAIN.Reservations.Entities
 {
@@ -14,6 +15,7 @@ namespace HotelReservationSystem.DOMAIN.Reservations.Entities
         public virtual Guest Guest { get; protected set; }
         public virtual decimal TotalAmount { get; protected set; }
         public virtual ReservationStatusEnum ReservationStatus { get; protected set; }
+        public virtual IList<Room> Rooms { get; protected set; }
         protected Reservation(){}
         public Reservation(DateTime date, Guest guest, decimal totalAmount, ReservationStatusEnum status)
         {

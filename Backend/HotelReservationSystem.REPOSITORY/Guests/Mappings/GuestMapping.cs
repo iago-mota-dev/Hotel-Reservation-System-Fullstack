@@ -17,6 +17,7 @@ namespace HotelReservationSystem.REPOSITORY.Guests.Mappings
             Map(x => x.Email).Column("email");
             Map(x => x.ImageUrl).Column("image_url");
             Map(x => x.GuestStatus).Column("gueststatus").CustomType<EnumType<GuestStatusEnum>>();
+            HasMany(x => x.Phones).KeyColumn("guest_id");
         }
     }
 }

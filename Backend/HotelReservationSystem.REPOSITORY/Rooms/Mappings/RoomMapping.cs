@@ -22,6 +22,7 @@ namespace HotelReservationSystem.REPOSITORY.Rooms.Mappings
             Map(x => x.ImageUrl).Column("image_url");
             Map(x => x.RoomStatus).Column("roomstatus").CustomType<EnumType<RoomStatusEnum>>();;
             Map(x => x.Price).Column("price");
+            HasManyToMany(x => x.Reservations).Table("ReservationRoom");
         }
     }
 }

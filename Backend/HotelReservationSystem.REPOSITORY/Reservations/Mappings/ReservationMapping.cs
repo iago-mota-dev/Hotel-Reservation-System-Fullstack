@@ -16,6 +16,7 @@ namespace HotelReservationSystem.REPOSITORY.Reservations.Mappings
             Map(x => x.Date).Column("reservation_date");
             Map(x => x.TotalAmount).Column("total_amount");
             Map(x => x.ReservationStatus).Column("reservationstatus").CustomType<EnumType<ReservationStatusEnum>>();
+            HasManyToMany(x => x.Rooms).Table("ReservationRoom").Inverse().Cascade.AllDeleteOrphan();
         }
     }
 }
